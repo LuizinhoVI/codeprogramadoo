@@ -1,0 +1,30 @@
+section {
+    width: 50vw;
+    height: 50vh;
+    background-color: black;
+}
+
+div {
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    background: rgba(155, 151, 151, 0.8);
+    filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -webkit-filter: blur(4px);
+    border-radius: 50px;
+}
+
+nav {
+    position: absolute;
+    background-color: red;
+    width: 40vw;
+    height: 40vh;
+}
